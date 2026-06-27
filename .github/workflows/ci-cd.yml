@@ -35,6 +35,7 @@ jobs:
       SQL_PASSWORD: testpassword
       SQL_HOST: localhost
       SQL_PORT: 5432
+      SQL_SSL_MODE: disable
       SECRET_KEY: ci-test-secret-key-not-for-production
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       DEBUG: "True"
